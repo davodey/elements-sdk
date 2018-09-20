@@ -1,3 +1,13 @@
+<a name="2.3.7"></a>
+## [2.3.7](https://github.com/Pearson-Higher-Ed/elements-sdk/compare/v1.12.0...v2.3.7) (2018-09-20)
+
+
+### Bug Fixes
+
+* **dropdown:** update automatic scrolling to selected item in dropdown as well as adding keys to dropdown elements. ([3ac4f06](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/3ac4f06))
+
+
+
 <a name="1.12.0"></a>
 # [1.12.0](https://github.com/Pearson-Higher-Ed/elements-sdk/compare/v1.11.3...v1.12.0) (2018-05-07)
 
@@ -152,6 +162,16 @@
 
 * Align Calendar's unit tests with Compounds fix. ([1933bd7](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/1933bd7))
 * fix package-lock.json file for security vulnerability ([a8194e3](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/a8194e3))
+* remove react >15.4 unit test tool movement warnings ([d5b343f](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/d5b343f))
+* Update Footer copyrightText ([1c620fb](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/1c620fb))
+
+
+### Features
+
+* update buttons to v3.0.0 ([17f5fd2](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/17f5fd2))
+* update buttons to v3.0.0 ([65d4dbe](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/65d4dbe))
+* update buttons to v3.0.0 beta.3 ([b63e7cb](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/b63e7cb))
+* update forms to v1.1.0 ([e32e8a1](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/e32e8a1))
 
 
 
@@ -166,6 +186,7 @@
 
 ### Features
 
+* update forms to v1.1.0 ([462e373](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/462e373))
 * **icons:** add breadcrumb icon ([3a2c0e4](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/3a2c0e4))
 
 
@@ -178,6 +199,11 @@
 
 * remove react >15.4 unit test tool movement warnings ([f4a2cea](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/f4a2cea))
 * Update Footer copyrightText ([e2e0573](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/e2e0573))
+
+
+### Features
+
+* update buttons to v3.0.0 beta.3 ([8caed8e](https://github.com/Pearson-Higher-Ed/elements-sdk/commit/8caed8e))
 
 
 
