@@ -348,6 +348,7 @@ export default class Dropdown extends Component {
         btnIcon={btnIcon}
         focus={this.state.buttonFocus}
         onClick={this.toggleDropdown}
+        disabled={this.props.disabled}
       >
         {buttonLabel}
       </Button>
@@ -404,6 +405,7 @@ export default class Dropdown extends Component {
   }
 
   componentDidMount() {
+    console.log('this props', this.props)
     const selectedIndex = this.getSelectedIndex();
     document.addEventListener('click', this.clickListener);
     // responsiveness events
