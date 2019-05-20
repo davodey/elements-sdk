@@ -18,7 +18,8 @@ export default class Dropdown extends Component {
     btnImageHeight: PropTypes.string,
     scrollable: PropTypes.bool,
     btnImageWidth: PropTypes.string,
-    btnImageAlt: PropTypes.string
+    btnImageAlt: PropTypes.string,
+    disabled: PropTypes.bool
   };
 
   constructor(props) {

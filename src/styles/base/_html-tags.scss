@@ -246,6 +246,18 @@ kbd {
 }
 
 //==== generic focus override =======
-:focus {
-	@include focusOutline;
+a[href]:not([tabindex^="-"]),
+area[href]:not([tabindex^="-"]),
+input,
+select,
+textarea,
+button,
+iframe:not([tabindex^="-"]),
+audio:not([tabindex^="-"]),
+video:not([tabindex^="-"]),
+[contenteditable]:not([tabindex^="-"]),
+[tabindex]:not([tabindex^="-"]) {
+  &:focus {
+    @include focusOutline;
+  }
 }

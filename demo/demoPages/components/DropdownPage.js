@@ -177,6 +177,32 @@ class DropdownPage extends React.Component {
           </Dropdown>`}
           </p>
 
+          <h3>Disabled Button</h3>
+          <Dropdown
+            mobileTitle={mobileTitle}
+            type="button"
+            label="Button text"
+            id="buttontext"
+            disabled
+          >
+            <DropdownItem dropdownId="dropBtnIcons" selectValue="list-item-1" label="list item 1" type="button" />
+            <DropdownItem type="divider" />
+            <DropdownItem dropdownId="dropBtnIcons" selectValue="list-item-2" label="list item 2" type="link" url="www.google.com"/>
+          </Dropdown>
+          <p className="code">
+            {`<Dropdown
+            mobileTitle={mobileTitle}
+            type="button"
+            label="Button text"
+            id="buttontext"
+            disabled
+            >
+            <DropdownItem dropdownId="dropBtnIcons" selectValue="list-item-1" label="list item 1" type="button" />
+            <DropdownItem type="divider" />
+            <DropdownItem dropdownId="dropBtnIcons" selectValue="list-item-2" label="list item 2" type="link" url="www.google.com"/>
+          </Dropdown>`}
+          </p>
+
           <h3>Icon only (no checkmarks)</h3>
             <Dropdown
               mobileTitle={mobileTitle}
